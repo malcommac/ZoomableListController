@@ -1,6 +1,0 @@
-framework module ZoomableListController {
-  umbrella header "Pods-ZoomableListController_Tests-ZoomableListController-umbrella.h"
-
-  export *
-  module * { export * }
-}
