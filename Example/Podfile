@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ZoomableListController_Example', :exclusive => true do
+  pod "ZoomableListController", :path => "../"
+end
+
+target 'ZoomableListController_Tests', :exclusive => true do
+  pod "ZoomableListController", :path => "../"
+
+  
+end
