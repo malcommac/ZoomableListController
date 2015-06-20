@@ -14,12 +14,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        This control allows you to imitate the behaviour of the Apple's built-in weather app with a tabular list and pinch to expand feature to perform a live transition to a page-scrollview data representation.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ZoomableListController"
+  s.homepage         = "https://github.com/malcommac/ZoomableListController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "daniele margutti" => "me@danielemargutti.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ZoomableListController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/malcommac/ZoomableListController.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/danielemargutti'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

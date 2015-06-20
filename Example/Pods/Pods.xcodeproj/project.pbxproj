@@ -1,0 +1,1553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A2C137C421149383A7AA9C /* Pods-ZoomableListController_Tests-CircularScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BE5C0FEBB83D98F7473B37 /* Pods-ZoomableListController_Tests-CircularScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25DC8D6EA5295AA6DF48D2EB /* Pods-ZoomableListController_Example-CircularScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF87408C7D49A3016BDD427 /* Pods-ZoomableListController_Example-CircularScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		395618046B3037B8C951170B /* CircularScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EA1EB13A0EFA4111D9BB601 /* CircularScrollView.bundle */; };
+		3CEF87570BCD2F55CF58BF45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823F1675290BFD881F661EE0 /* Foundation.framework */; };
+		41F53D116C73201A5DCC8643 /* CircularScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB875268D228EFA65EE9BF3 /* CircularScrollView.swift */; };
+		44CF0D5A36AACEB44B8892FE /* CircularScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B483767F72DDC7AF04EF94E /* CircularScrollView.framework */; };
+		454D8F62F677A669BAB04F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823F1675290BFD881F661EE0 /* Foundation.framework */; };
+		4820B140993665E56D800C30 /* ZoomableListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A9092231741CE26E7E2DC2 /* ZoomableListController.swift */; };
+		6A5732337B96285EBE30938B /* Pods-ZoomableListController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9F5C4844AD07C679F2E9DD /* Pods-ZoomableListController_Example-dummy.m */; };
+		75BC3D4F43A6D14804C1DEC8 /* Pods-ZoomableListController_Tests-ZoomableListController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A03A2AD57A438019B0817710 /* Pods-ZoomableListController_Tests-ZoomableListController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A94870F811859D30E95C679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823F1675290BFD881F661EE0 /* Foundation.framework */; };
+		7BD335AB0BDAE28E7C30E5E7 /* Pods-ZoomableListController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFAB1A49858717943C6AD6B /* Pods-ZoomableListController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC9C694C4D9389246C1D43F /* CircularScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB875268D228EFA65EE9BF3 /* CircularScrollView.swift */; };
+		82E6E471D640D117655A670A /* ZoomableListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A9092231741CE26E7E2DC2 /* ZoomableListController.swift */; };
+		85C2F3F94E859B05F8E7884B /* CircularScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B483767F72DDC7AF04EF94E /* CircularScrollView.framework */; };
+		911AC799AA5824FFE371FECF /* ZoomableListController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C07FF3E40BB2856F07ED20F /* ZoomableListController.bundle */; };
+		9FB653F4E6559C2E08530E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823F1675290BFD881F661EE0 /* Foundation.framework */; };
+		AA7C89320A8C1DC37D8D1756 /* CircularScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D7B390EEA0D9AA4F6E7F9B9 /* CircularScrollView.bundle */; };
+		B3AF3394AD1195212BFEA4EC /* Pods-ZoomableListController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E4D2395405A52EA1828137 /* Pods-ZoomableListController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6869E9101ACDDEBE5F08630 /* Pods-ZoomableListController_Example-CircularScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE0CED2CA829D1EDFCCC18 /* Pods-ZoomableListController_Example-CircularScrollView-dummy.m */; };
+		BF02D6AA9FC1996BD988813F /* Pods-ZoomableListController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A3891D23997835D5899A1A /* Pods-ZoomableListController_Tests-dummy.m */; };
+		D1769B7C9C45CEF9A6246FD6 /* Pods-ZoomableListController_Tests-ZoomableListController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27858EB5FC85F6EC8D49391F /* Pods-ZoomableListController_Tests-ZoomableListController-dummy.m */; };
+		D760B07EBF6732EBEA0A1280 /* Pods-ZoomableListController_Example-ZoomableListController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C64F9CE9ED6324CA9DF96F74 /* Pods-ZoomableListController_Example-ZoomableListController-dummy.m */; };
+		E078148E9D59B4350D8CE059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823F1675290BFD881F661EE0 /* Foundation.framework */; };
+		E5CE66A5E8885124225B3BB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823F1675290BFD881F661EE0 /* Foundation.framework */; };
+		E8642B0A719D34D5704CC638 /* ZoomableListController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 844E7E43F6B4E60A7BB45032 /* ZoomableListController.bundle */; };
+		F0DE96CB327B9168152363F0 /* Pods-ZoomableListController_Example-ZoomableListController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA18B308081035716C91F759 /* Pods-ZoomableListController_Example-ZoomableListController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F25FB8F9CE29201F59D2A75B /* Pods-ZoomableListController_Tests-CircularScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 945681A8090B94DAFCFF26B5 /* Pods-ZoomableListController_Tests-CircularScrollView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B6D0364AF8AB834011A649D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95AE550471A13E4B69AD81EF;
+			remoteInfo = "Pods-ZoomableListController_Tests-ZoomableListController-ZoomableListController";
+		};
+		74BC4ACCD8F66EC7F393EB7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB73BA270143D9B9DB077BA;
+			remoteInfo = "Pods-ZoomableListController_Tests-CircularScrollView";
+		};
+		8D4B807452BEC29A470235D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FD11737F40B0EE12CE93787;
+			remoteInfo = "Pods-ZoomableListController_Tests-CircularScrollView-CircularScrollView";
+		};
+		909330B04595EB69ED206BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E591891BA62A507D830665;
+			remoteInfo = "Pods-ZoomableListController_Example-ZoomableListController";
+		};
+		B0976F1277B3127F4D193D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8145A63DA50E42DD9BD6350D;
+			remoteInfo = "Pods-ZoomableListController_Example-CircularScrollView";
+		};
+		B660C100BF48A5ABD4C5ED36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947617DF5A2DEECFA55703DB;
+			remoteInfo = "Pods-ZoomableListController_Example-CircularScrollView-CircularScrollView";
+		};
+		DBE0D2A7EC991E628978F4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8145A63DA50E42DD9BD6350D;
+			remoteInfo = "Pods-ZoomableListController_Example-CircularScrollView";
+		};
+		E081F4F8A10871A38AB7E8A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB73BA270143D9B9DB077BA;
+			remoteInfo = "Pods-ZoomableListController_Tests-CircularScrollView";
+		};
+		EAF2F0C69A0D5BAA2E0CED2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38645DB442ADE9608254A3B1;
+			remoteInfo = "Pods-ZoomableListController_Tests-ZoomableListController";
+		};
+		EBAE5AA90B70243B6E5438C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250C00C28D9177EC31AED50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE2715CE80DC383CA8303DDD;
+			remoteInfo = "Pods-ZoomableListController_Example-ZoomableListController-ZoomableListController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B7DBE7CB900A32F457448B /* Pods-ZoomableListController_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomableListController_Example-environment.h"; sourceTree = "<group>"; };
+		0445CE55D5BEBA28EA5FAF7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ZoomableListController_Tests-ZoomableListController/Info.plist"; sourceTree = "<group>"; };
+		096493E5018A2B83F76C9B55 /* Pods-ZoomableListController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZoomableListController_Example.modulemap"; sourceTree = "<group>"; };
+		09D333E4B26A8F1B03B75E2C /* Pods-ZoomableListController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomableListController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D4C83E9ECC4C9ADD7FEFBE7 /* Pods-ZoomableListController_Example-CircularScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomableListController_Example-CircularScrollView.xcconfig"; sourceTree = "<group>"; };
+		0D7B390EEA0D9AA4F6E7F9B9 /* CircularScrollView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularScrollView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BDEE1ACBD977BC0C48FEEB /* Pods-ZoomableListController_Tests-ZoomableListController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableListController_Tests-ZoomableListController-Private.xcconfig"; path = "../Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController-Private.xcconfig"; sourceTree = "<group>"; };
+		19E4D2395405A52EA1828137 /* Pods-ZoomableListController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomableListController_Example-umbrella.h"; sourceTree = "<group>"; };
+		1A260C8C297589A6D93BD8DA /* Pods-ZoomableListController_Tests-CircularScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ZoomableListController_Tests-CircularScrollView-prefix.pch"; path = "../Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView-prefix.pch"; sourceTree = "<group>"; };
+		203EC6C3A3B96BB912AF16CE /* Pods-ZoomableListController_Example-ZoomableListController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomableListController_Example-ZoomableListController.xcconfig"; sourceTree = "<group>"; };
+		25481C511BA54671D30AE339 /* Pods_ZoomableListController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomableListController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27858EB5FC85F6EC8D49391F /* Pods-ZoomableListController_Tests-ZoomableListController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ZoomableListController_Tests-ZoomableListController-dummy.m"; path = "../Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController-dummy.m"; sourceTree = "<group>"; };
+		2DB875268D228EFA65EE9BF3 /* CircularScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularScrollView.swift; path = Pod/Classes/CircularScrollView.swift; sourceTree = "<group>"; };
+		2FFAB1A49858717943C6AD6B /* Pods-ZoomableListController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomableListController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		306A1708ED4CD58FE0CEDFF4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35065CD9CBD20E6F3659E9DB /* Pods-ZoomableListController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomableListController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		39EE56DA674A55809452C338 /* Pods-ZoomableListController_Tests-ZoomableListController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ZoomableListController_Tests-ZoomableListController.modulemap"; path = "../Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController.modulemap"; sourceTree = "<group>"; };
+		3C07FF3E40BB2856F07ED20F /* ZoomableListController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomableListController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		448A238DFBE1E1AC5018BE70 /* Pods-ZoomableListController_Tests-CircularScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableListController_Tests-CircularScrollView.xcconfig"; path = "../Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView.xcconfig"; sourceTree = "<group>"; };
+		54BD938F04080188D3821BD4 /* ZoomableListController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZoomableListController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E367173ABC343D2AC41657 /* Pods-ZoomableListController_Example-CircularScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomableListController_Example-CircularScrollView-prefix.pch"; sourceTree = "<group>"; };
+		5A96418B66F4A510878A7872 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BE5C0FEBB83D98F7473B37 /* Pods-ZoomableListController_Tests-CircularScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ZoomableListController_Tests-CircularScrollView-umbrella.h"; path = "../Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView-umbrella.h"; sourceTree = "<group>"; };
+		687A4198E3BE79548265BA0A /* Pods-ZoomableListController_Tests-ZoomableListController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ZoomableListController_Tests-ZoomableListController-prefix.pch"; path = "../Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController-prefix.pch"; sourceTree = "<group>"; };
+		688D86E403B5493F1C21680E /* Pods_ZoomableListController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomableListController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B483767F72DDC7AF04EF94E /* CircularScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircularScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B30F8C26ACD064E2098B7B2 /* Pods-ZoomableListController_Tests-CircularScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ZoomableListController_Tests-CircularScrollView.modulemap"; path = "../Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView.modulemap"; sourceTree = "<group>"; };
+		7B5937E997E08463EC762A51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ZoomableListController_Tests-CircularScrollView/Info.plist"; sourceTree = "<group>"; };
+		81ACB3D9B6690C4D4C71E894 /* Pods-ZoomableListController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomableListController_Example-resources.sh"; sourceTree = "<group>"; };
+		823F1675290BFD881F661EE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		844E7E43F6B4E60A7BB45032 /* ZoomableListController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomableListController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAB3FE08DF4E16AB60DB701 /* Pods-ZoomableListController_Tests-CircularScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableListController_Tests-CircularScrollView-Private.xcconfig"; path = "../Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView-Private.xcconfig"; sourceTree = "<group>"; };
+		91C5030B5F86895B33B810A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945681A8090B94DAFCFF26B5 /* Pods-ZoomableListController_Tests-CircularScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ZoomableListController_Tests-CircularScrollView-dummy.m"; path = "../Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView-dummy.m"; sourceTree = "<group>"; };
+		95A60A3C39D04CACFE33075A /* CircularScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircularScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFE0CED2CA829D1EDFCCC18 /* Pods-ZoomableListController_Example-CircularScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomableListController_Example-CircularScrollView-dummy.m"; sourceTree = "<group>"; };
+		9B0E4A60F0059E4936A23136 /* Pods-ZoomableListController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZoomableListController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EA1EB13A0EFA4111D9BB601 /* CircularScrollView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularScrollView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF87408C7D49A3016BDD427 /* Pods-ZoomableListController_Example-CircularScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomableListController_Example-CircularScrollView-umbrella.h"; sourceTree = "<group>"; };
+		A03A2AD57A438019B0817710 /* Pods-ZoomableListController_Tests-ZoomableListController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ZoomableListController_Tests-ZoomableListController-umbrella.h"; path = "../Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController-umbrella.h"; sourceTree = "<group>"; };
+		A5DE1AFC7D2AC18C3DE92D04 /* Pods-ZoomableListController_Tests-ZoomableListController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableListController_Tests-ZoomableListController.xcconfig"; path = "../Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController.xcconfig"; sourceTree = "<group>"; };
+		AA60EADE9AE5F377090DE6B7 /* Pods-ZoomableListController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZoomableListController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADDABB811E71DF64CC9F5813 /* Pods-ZoomableListController_Example-CircularScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomableListController_Example-CircularScrollView-Private.xcconfig"; sourceTree = "<group>"; };
+		B300BD7DF3790525845F577E /* Pods-ZoomableListController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomableListController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B44F59A2CCF272620E3F3250 /* Pods-ZoomableListController_Example-ZoomableListController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomableListController_Example-ZoomableListController-Private.xcconfig"; sourceTree = "<group>"; };
+		BA9FA3AA70EC220F08112A11 /* Pods-ZoomableListController_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomableListController_Tests-environment.h"; sourceTree = "<group>"; };
+		BAC32E639101F5AAF2D7ED8D /* Pods-ZoomableListController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZoomableListController_Tests.modulemap"; sourceTree = "<group>"; };
+		BB2D2FD845E6E906768CFA0B /* CircularScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircularScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64F9CE9ED6324CA9DF96F74 /* Pods-ZoomableListController_Example-ZoomableListController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomableListController_Example-ZoomableListController-dummy.m"; sourceTree = "<group>"; };
+		CC2156C30571D6BC18B64FDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D001BBA2E0596917B73B370D /* ZoomableListController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZoomableListController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1681217DEF440EBBC9A01A6 /* Pods-ZoomableListController_Example-CircularScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZoomableListController_Example-CircularScrollView.modulemap"; sourceTree = "<group>"; };
+		D2FE5913C48CB3677AE5E326 /* Pods-ZoomableListController_Example-ZoomableListController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZoomableListController_Example-ZoomableListController.modulemap"; sourceTree = "<group>"; };
+		D46EE6B57BAB661105B38A2B /* Pods-ZoomableListController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomableListController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBB317FDC8ED305C8A16FA84 /* Pods-ZoomableListController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomableListController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DF430C44FE17BCEABB6E12C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A9092231741CE26E7E2DC2 /* ZoomableListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZoomableListController.swift; sourceTree = "<group>"; };
+		E6CF545907948DB537AF7F83 /* Pods-ZoomableListController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomableListController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E722CD121C79B5CFF5EFE64F /* Pods-ZoomableListController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomableListController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF0B82A2189F60B2DEED418C /* Pods-ZoomableListController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomableListController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF9F5C4844AD07C679F2E9DD /* Pods-ZoomableListController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomableListController_Example-dummy.m"; sourceTree = "<group>"; };
+		F5A3891D23997835D5899A1A /* Pods-ZoomableListController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomableListController_Tests-dummy.m"; sourceTree = "<group>"; };
+		F8812B735ABE6B3B5040CD1E /* Pods-ZoomableListController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomableListController_Tests-resources.sh"; sourceTree = "<group>"; };
+		FA18B308081035716C91F759 /* Pods-ZoomableListController_Example-ZoomableListController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomableListController_Example-ZoomableListController-umbrella.h"; sourceTree = "<group>"; };
+		FAE42BCD9840D39E894AB6DF /* Pods-ZoomableListController_Example-ZoomableListController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomableListController_Example-ZoomableListController-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190658F3DA5629D30CFE2C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEF87570BCD2F55CF58BF45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDA7B21CAA1C804FB8E3F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454D8F62F677A669BAB04F94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3467EB0ADDD37313AEC37197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CF0D5A36AACEB44B8892FE /* CircularScrollView.framework in Frameworks */,
+				9FB653F4E6559C2E08530E15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EBD02EAC7B641EAF455E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BD1BC3BF80F6089DB68CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C0F535FEDEDE64D89870F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5CE66A5E8885124225B3BB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7C416B350A9867BB07BB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C2F3F94E859B05F8E7884B /* CircularScrollView.framework in Frameworks */,
+				7A94870F811859D30E95C679 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A344E9306AD966B557C55448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8935971C55EF8C418A0D1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E078148E9D59B4350D8CE059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64B7B8CE31D15917718E280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A70AFBC16213688AD02B52 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				823F1675290BFD881F661EE0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		334AC9D399A34A6FE55A65EC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82387E6DADD6B193A6E8366C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4DDBA869DE40D1AD652D8198 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF2F5DD36073C423988672B9 /* ZoomableListController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4E54A14E0CC39E0190112648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93A06891608EC64EFFF2C803 /* CircularScrollView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B6610629AB1ECE9D3C38533 /* Pods-ZoomableListController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5A96418B66F4A510878A7872 /* Info.plist */,
+				096493E5018A2B83F76C9B55 /* Pods-ZoomableListController_Example.modulemap */,
+				9B0E4A60F0059E4936A23136 /* Pods-ZoomableListController_Example-acknowledgements.markdown */,
+				D46EE6B57BAB661105B38A2B /* Pods-ZoomableListController_Example-acknowledgements.plist */,
+				EF9F5C4844AD07C679F2E9DD /* Pods-ZoomableListController_Example-dummy.m */,
+				00B7DBE7CB900A32F457448B /* Pods-ZoomableListController_Example-environment.h */,
+				B300BD7DF3790525845F577E /* Pods-ZoomableListController_Example-frameworks.sh */,
+				81ACB3D9B6690C4D4C71E894 /* Pods-ZoomableListController_Example-resources.sh */,
+				19E4D2395405A52EA1828137 /* Pods-ZoomableListController_Example-umbrella.h */,
+				09D333E4B26A8F1B03B75E2C /* Pods-ZoomableListController_Example.debug.xcconfig */,
+				E6CF545907948DB537AF7F83 /* Pods-ZoomableListController_Example.release.xcconfig */,
+			);
+			name = "Pods-ZoomableListController_Example";
+			path = "Target Support Files/Pods-ZoomableListController_Example";
+			sourceTree = "<group>";
+		};
+		802BFBABAE3BA4EB30491D16 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6610629AB1ECE9D3C38533 /* Pods-ZoomableListController_Example */,
+				C6DD9852D9E9594012F06A2D /* Pods-ZoomableListController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		82387E6DADD6B193A6E8366C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4A9092231741CE26E7E2DC2 /* ZoomableListController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8D4E5637C886965B87206F58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91C5030B5F86895B33B810A9 /* Info.plist */,
+				0445CE55D5BEBA28EA5FAF7E /* Info.plist */,
+				D2FE5913C48CB3677AE5E326 /* Pods-ZoomableListController_Example-ZoomableListController.modulemap */,
+				203EC6C3A3B96BB912AF16CE /* Pods-ZoomableListController_Example-ZoomableListController.xcconfig */,
+				B44F59A2CCF272620E3F3250 /* Pods-ZoomableListController_Example-ZoomableListController-Private.xcconfig */,
+				C64F9CE9ED6324CA9DF96F74 /* Pods-ZoomableListController_Example-ZoomableListController-dummy.m */,
+				FAE42BCD9840D39E894AB6DF /* Pods-ZoomableListController_Example-ZoomableListController-prefix.pch */,
+				FA18B308081035716C91F759 /* Pods-ZoomableListController_Example-ZoomableListController-umbrella.h */,
+				39EE56DA674A55809452C338 /* Pods-ZoomableListController_Tests-ZoomableListController.modulemap */,
+				A5DE1AFC7D2AC18C3DE92D04 /* Pods-ZoomableListController_Tests-ZoomableListController.xcconfig */,
+				17BDEE1ACBD977BC0C48FEEB /* Pods-ZoomableListController_Tests-ZoomableListController-Private.xcconfig */,
+				27858EB5FC85F6EC8D49391F /* Pods-ZoomableListController_Tests-ZoomableListController-dummy.m */,
+				687A4198E3BE79548265BA0A /* Pods-ZoomableListController_Tests-ZoomableListController-prefix.pch */,
+				A03A2AD57A438019B0817710 /* Pods-ZoomableListController_Tests-ZoomableListController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ZoomableListController_Example-ZoomableListController";
+			sourceTree = "<group>";
+		};
+		93A06891608EC64EFFF2C803 /* CircularScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2DB875268D228EFA65EE9BF3 /* CircularScrollView.swift */,
+				BC7BF183AE9E0949A89BE577 /* Support Files */,
+			);
+			path = CircularScrollView;
+			sourceTree = "<group>";
+		};
+		AE5E25F0A465C90D19E17C2E = {
+			isa = PBXGroup;
+			children = (
+				306A1708ED4CD58FE0CEDFF4 /* Podfile */,
+				4DDBA869DE40D1AD652D8198 /* Development Pods */,
+				E03F54C55B52E3AB37C15C0A /* Frameworks */,
+				4E54A14E0CC39E0190112648 /* Pods */,
+				DB30F5F67385D170E9AFACCD /* Products */,
+				802BFBABAE3BA4EB30491D16 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC7BF183AE9E0949A89BE577 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC2156C30571D6BC18B64FDA /* Info.plist */,
+				7B5937E997E08463EC762A51 /* Info.plist */,
+				D1681217DEF440EBBC9A01A6 /* Pods-ZoomableListController_Example-CircularScrollView.modulemap */,
+				0D4C83E9ECC4C9ADD7FEFBE7 /* Pods-ZoomableListController_Example-CircularScrollView.xcconfig */,
+				ADDABB811E71DF64CC9F5813 /* Pods-ZoomableListController_Example-CircularScrollView-Private.xcconfig */,
+				9AFE0CED2CA829D1EDFCCC18 /* Pods-ZoomableListController_Example-CircularScrollView-dummy.m */,
+				59E367173ABC343D2AC41657 /* Pods-ZoomableListController_Example-CircularScrollView-prefix.pch */,
+				9FF87408C7D49A3016BDD427 /* Pods-ZoomableListController_Example-CircularScrollView-umbrella.h */,
+				7B30F8C26ACD064E2098B7B2 /* Pods-ZoomableListController_Tests-CircularScrollView.modulemap */,
+				448A238DFBE1E1AC5018BE70 /* Pods-ZoomableListController_Tests-CircularScrollView.xcconfig */,
+				8AAB3FE08DF4E16AB60DB701 /* Pods-ZoomableListController_Tests-CircularScrollView-Private.xcconfig */,
+				945681A8090B94DAFCFF26B5 /* Pods-ZoomableListController_Tests-CircularScrollView-dummy.m */,
+				1A260C8C297589A6D93BD8DA /* Pods-ZoomableListController_Tests-CircularScrollView-prefix.pch */,
+				63BE5C0FEBB83D98F7473B37 /* Pods-ZoomableListController_Tests-CircularScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ZoomableListController_Example-CircularScrollView";
+			sourceTree = "<group>";
+		};
+		BF2F5DD36073C423988672B9 /* ZoomableListController */ = {
+			isa = PBXGroup;
+			children = (
+				334AC9D399A34A6FE55A65EC /* Pod */,
+				8D4E5637C886965B87206F58 /* Support Files */,
+			);
+			name = ZoomableListController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C6DD9852D9E9594012F06A2D /* Pods-ZoomableListController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF430C44FE17BCEABB6E12C3 /* Info.plist */,
+				BAC32E639101F5AAF2D7ED8D /* Pods-ZoomableListController_Tests.modulemap */,
+				AA60EADE9AE5F377090DE6B7 /* Pods-ZoomableListController_Tests-acknowledgements.markdown */,
+				E722CD121C79B5CFF5EFE64F /* Pods-ZoomableListController_Tests-acknowledgements.plist */,
+				F5A3891D23997835D5899A1A /* Pods-ZoomableListController_Tests-dummy.m */,
+				BA9FA3AA70EC220F08112A11 /* Pods-ZoomableListController_Tests-environment.h */,
+				DBB317FDC8ED305C8A16FA84 /* Pods-ZoomableListController_Tests-frameworks.sh */,
+				F8812B735ABE6B3B5040CD1E /* Pods-ZoomableListController_Tests-resources.sh */,
+				2FFAB1A49858717943C6AD6B /* Pods-ZoomableListController_Tests-umbrella.h */,
+				EF0B82A2189F60B2DEED418C /* Pods-ZoomableListController_Tests.debug.xcconfig */,
+				35065CD9CBD20E6F3659E9DB /* Pods-ZoomableListController_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZoomableListController_Tests";
+			path = "Target Support Files/Pods-ZoomableListController_Tests";
+			sourceTree = "<group>";
+		};
+		DB30F5F67385D170E9AFACCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EA1EB13A0EFA4111D9BB601 /* CircularScrollView.bundle */,
+				0D7B390EEA0D9AA4F6E7F9B9 /* CircularScrollView.bundle */,
+				BB2D2FD845E6E906768CFA0B /* CircularScrollView.framework */,
+				95A60A3C39D04CACFE33075A /* CircularScrollView.framework */,
+				25481C511BA54671D30AE339 /* Pods_ZoomableListController_Example.framework */,
+				688D86E403B5493F1C21680E /* Pods_ZoomableListController_Tests.framework */,
+				844E7E43F6B4E60A7BB45032 /* ZoomableListController.bundle */,
+				3C07FF3E40BB2856F07ED20F /* ZoomableListController.bundle */,
+				D001BBA2E0596917B73B370D /* ZoomableListController.framework */,
+				54BD938F04080188D3821BD4 /* ZoomableListController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E03F54C55B52E3AB37C15C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B483767F72DDC7AF04EF94E /* CircularScrollView.framework */,
+				21A70AFBC16213688AD02B52 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11F6DF93EE6DF11590E0008A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD335AB0BDAE28E7C30E5E7 /* Pods-ZoomableListController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA737D6647FF1613CF71455 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A2C137C421149383A7AA9C /* Pods-ZoomableListController_Tests-CircularScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30ACFB959E814D1B4C59C44B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DC8D6EA5295AA6DF48D2EB /* Pods-ZoomableListController_Example-CircularScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DDFB8B3B5D3B83234C91C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BC3D4F43A6D14804C1DEC8 /* Pods-ZoomableListController_Tests-ZoomableListController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA5D4EEFD946513E84B3424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AF3394AD1195212BFEA4EC /* Pods-ZoomableListController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D699855B9679FC6AB7832277 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DE96CB327B9168152363F0 /* Pods-ZoomableListController_Example-ZoomableListController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FD11737F40B0EE12CE93787 /* Pods-ZoomableListController_Tests-CircularScrollView-CircularScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B768F03330F5A6FDB59C689 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests-CircularScrollView-CircularScrollView" */;
+			buildPhases = (
+				7C0953992B1E40AC3C344CE2 /* Sources */,
+				F64B7B8CE31D15917718E280 /* Frameworks */,
+				80997C18CD1D470F1EA07332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZoomableListController_Tests-CircularScrollView-CircularScrollView";
+			productName = "Pods-ZoomableListController_Tests-CircularScrollView-CircularScrollView";
+			productReference = 9EA1EB13A0EFA4111D9BB601 /* CircularScrollView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		11593B94BD612C44F49DE6B2 /* Pods-ZoomableListController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61B60491BB29A34265FA802 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests" */;
+			buildPhases = (
+				058A069C3DA477921F79072D /* Sources */,
+				190658F3DA5629D30CFE2C7E /* Frameworks */,
+				11F6DF93EE6DF11590E0008A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63728E282E6EFFF6F915B8E /* PBXTargetDependency */,
+				C93F145C56BCD749612B748A /* PBXTargetDependency */,
+			);
+			name = "Pods-ZoomableListController_Tests";
+			productName = "Pods-ZoomableListController_Tests";
+			productReference = 688D86E403B5493F1C21680E /* Pods_ZoomableListController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		309BA61D90814563BE8DD9A2 /* Pods-ZoomableListController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E119B6E71501D98BA0A27A6B /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example" */;
+			buildPhases = (
+				30CA35E6D5DA99E15DF5A4A1 /* Sources */,
+				1EDA7B21CAA1C804FB8E3F73 /* Frameworks */,
+				6EA5D4EEFD946513E84B3424 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540897E06671ADD353A3CE9B /* PBXTargetDependency */,
+				B0E679219521F7462EC7FBE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZoomableListController_Example";
+			productName = "Pods-ZoomableListController_Example";
+			productReference = 25481C511BA54671D30AE339 /* Pods_ZoomableListController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38645DB442ADE9608254A3B1 /* Pods-ZoomableListController_Tests-ZoomableListController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34447B62893EDD11F356BD8D /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests-ZoomableListController" */;
+			buildPhases = (
+				03A1DB13991C7B8D12CD62A9 /* Sources */,
+				9E7C416B350A9867BB07BB86 /* Frameworks */,
+				ACE0B104BF386E7CA0EF04D3 /* Resources */,
+				60DDFB8B3B5D3B83234C91C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D35CBD45866915F9F790E8 /* PBXTargetDependency */,
+				68C2F94F36D9BF4E8E0FADEC /* PBXTargetDependency */,
+			);
+			name = "Pods-ZoomableListController_Tests-ZoomableListController";
+			productName = "Pods-ZoomableListController_Tests-ZoomableListController";
+			productReference = 54BD938F04080188D3821BD4 /* ZoomableListController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AB73BA270143D9B9DB077BA /* Pods-ZoomableListController_Tests-CircularScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDC47B4DB9B3097F3304158 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests-CircularScrollView" */;
+			buildPhases = (
+				5802B321CCD0B04E44FCEE95 /* Sources */,
+				E8935971C55EF8C418A0D1AA /* Frameworks */,
+				E220DD56F892C4740B03A33B /* Resources */,
+				1CA737D6647FF1613CF71455 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2860812DF9D8C3010BCE50DC /* PBXTargetDependency */,
+			);
+			name = "Pods-ZoomableListController_Tests-CircularScrollView";
+			productName = "Pods-ZoomableListController_Tests-CircularScrollView";
+			productReference = BB2D2FD845E6E906768CFA0B /* CircularScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8145A63DA50E42DD9BD6350D /* Pods-ZoomableListController_Example-CircularScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C42C6F904A574464F7D698C /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example-CircularScrollView" */;
+			buildPhases = (
+				4F33B6E593DB10074D5C86B3 /* Sources */,
+				73C0F535FEDEDE64D89870F6 /* Frameworks */,
+				30CCEF92FFB45F80AE9C9E6D /* Resources */,
+				30ACFB959E814D1B4C59C44B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75B13A07EF38FDCB5CCD319 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZoomableListController_Example-CircularScrollView";
+			productName = "Pods-ZoomableListController_Example-CircularScrollView";
+			productReference = 95A60A3C39D04CACFE33075A /* CircularScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		947617DF5A2DEECFA55703DB /* Pods-ZoomableListController_Example-CircularScrollView-CircularScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06241A4231C32E4662D18FAA /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example-CircularScrollView-CircularScrollView" */;
+			buildPhases = (
+				25A2692DA9FA5BEEE0E260EC /* Sources */,
+				50EBD02EAC7B641EAF455E06 /* Frameworks */,
+				0ADB7BB07DEFE308DFBDB3E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZoomableListController_Example-CircularScrollView-CircularScrollView";
+			productName = "Pods-ZoomableListController_Example-CircularScrollView-CircularScrollView";
+			productReference = 0D7B390EEA0D9AA4F6E7F9B9 /* CircularScrollView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		95AE550471A13E4B69AD81EF /* Pods-ZoomableListController_Tests-ZoomableListController-ZoomableListController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CEC94FE3105CCECB3CCD8F0 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests-ZoomableListController-ZoomableListController" */;
+			buildPhases = (
+				0A36A6C4473A73CBDD000631 /* Sources */,
+				61BD1BC3BF80F6089DB68CD2 /* Frameworks */,
+				1BB18FE35ECD5ACD220DBE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZoomableListController_Tests-ZoomableListController-ZoomableListController";
+			productName = "Pods-ZoomableListController_Tests-ZoomableListController-ZoomableListController";
+			productReference = 844E7E43F6B4E60A7BB45032 /* ZoomableListController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AE2715CE80DC383CA8303DDD /* Pods-ZoomableListController_Example-ZoomableListController-ZoomableListController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4548A9F1A530DAC1EDFA3777 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example-ZoomableListController-ZoomableListController" */;
+			buildPhases = (
+				A5ECCB47D6D5B88D6DC76B20 /* Sources */,
+				A344E9306AD966B557C55448 /* Frameworks */,
+				EDABBBDA089E4DF797BF86CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZoomableListController_Example-ZoomableListController-ZoomableListController";
+			productName = "Pods-ZoomableListController_Example-ZoomableListController-ZoomableListController";
+			productReference = 3C07FF3E40BB2856F07ED20F /* ZoomableListController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B4E591891BA62A507D830665 /* Pods-ZoomableListController_Example-ZoomableListController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67FF9BBDDB7598DE21D2F3B /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example-ZoomableListController" */;
+			buildPhases = (
+				793225173BFBD44D9B74D827 /* Sources */,
+				3467EB0ADDD37313AEC37197 /* Frameworks */,
+				4D8A234F8BA698A760048B69 /* Resources */,
+				D699855B9679FC6AB7832277 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D51EDA2BD47BC5B29E56B068 /* PBXTargetDependency */,
+				64F2DEFBF7C2A555C04611BE /* PBXTargetDependency */,
+			);
+			name = "Pods-ZoomableListController_Example-ZoomableListController";
+			productName = "Pods-ZoomableListController_Example-ZoomableListController";
+			productReference = D001BBA2E0596917B73B370D /* ZoomableListController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		250C00C28D9177EC31AED50E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = FFC647A00C4728317774E960 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE5E25F0A465C90D19E17C2E;
+			productRefGroup = DB30F5F67385D170E9AFACCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309BA61D90814563BE8DD9A2 /* Pods-ZoomableListController_Example */,
+				8145A63DA50E42DD9BD6350D /* Pods-ZoomableListController_Example-CircularScrollView */,
+				947617DF5A2DEECFA55703DB /* Pods-ZoomableListController_Example-CircularScrollView-CircularScrollView */,
+				B4E591891BA62A507D830665 /* Pods-ZoomableListController_Example-ZoomableListController */,
+				AE2715CE80DC383CA8303DDD /* Pods-ZoomableListController_Example-ZoomableListController-ZoomableListController */,
+				11593B94BD612C44F49DE6B2 /* Pods-ZoomableListController_Tests */,
+				4AB73BA270143D9B9DB077BA /* Pods-ZoomableListController_Tests-CircularScrollView */,
+				0FD11737F40B0EE12CE93787 /* Pods-ZoomableListController_Tests-CircularScrollView-CircularScrollView */,
+				38645DB442ADE9608254A3B1 /* Pods-ZoomableListController_Tests-ZoomableListController */,
+				95AE550471A13E4B69AD81EF /* Pods-ZoomableListController_Tests-ZoomableListController-ZoomableListController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ADB7BB07DEFE308DFBDB3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB18FE35ECD5ACD220DBE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CCEF92FFB45F80AE9C9E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7C89320A8C1DC37D8D1756 /* CircularScrollView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8A234F8BA698A760048B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911AC799AA5824FFE371FECF /* ZoomableListController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80997C18CD1D470F1EA07332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE0B104BF386E7CA0EF04D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8642B0A719D34D5704CC638 /* ZoomableListController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E220DD56F892C4740B03A33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395618046B3037B8C951170B /* CircularScrollView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDABBBDA089E4DF797BF86CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A1DB13991C7B8D12CD62A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1769B7C9C45CEF9A6246FD6 /* Pods-ZoomableListController_Tests-ZoomableListController-dummy.m in Sources */,
+				4820B140993665E56D800C30 /* ZoomableListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058A069C3DA477921F79072D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02D6AA9FC1996BD988813F /* Pods-ZoomableListController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A36A6C4473A73CBDD000631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A2692DA9FA5BEEE0E260EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CA35E6D5DA99E15DF5A4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5732337B96285EBE30938B /* Pods-ZoomableListController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F33B6E593DB10074D5C86B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC9C694C4D9389246C1D43F /* CircularScrollView.swift in Sources */,
+				B6869E9101ACDDEBE5F08630 /* Pods-ZoomableListController_Example-CircularScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5802B321CCD0B04E44FCEE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F53D116C73201A5DCC8643 /* CircularScrollView.swift in Sources */,
+				F25FB8F9CE29201F59D2A75B /* Pods-ZoomableListController_Tests-CircularScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793225173BFBD44D9B74D827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D760B07EBF6732EBEA0A1280 /* Pods-ZoomableListController_Example-ZoomableListController-dummy.m in Sources */,
+				82E6E471D640D117655A670A /* ZoomableListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C0953992B1E40AC3C344CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5ECCB47D6D5B88D6DC76B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2860812DF9D8C3010BCE50DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Tests-CircularScrollView-CircularScrollView";
+			target = 0FD11737F40B0EE12CE93787 /* Pods-ZoomableListController_Tests-CircularScrollView-CircularScrollView */;
+			targetProxy = 8D4B807452BEC29A470235D5 /* PBXContainerItemProxy */;
+		};
+		540897E06671ADD353A3CE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Example-CircularScrollView";
+			target = 8145A63DA50E42DD9BD6350D /* Pods-ZoomableListController_Example-CircularScrollView */;
+			targetProxy = DBE0D2A7EC991E628978F4A7 /* PBXContainerItemProxy */;
+		};
+		64F2DEFBF7C2A555C04611BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Example-ZoomableListController-ZoomableListController";
+			target = AE2715CE80DC383CA8303DDD /* Pods-ZoomableListController_Example-ZoomableListController-ZoomableListController */;
+			targetProxy = EBAE5AA90B70243B6E5438C8 /* PBXContainerItemProxy */;
+		};
+		68C2F94F36D9BF4E8E0FADEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Tests-ZoomableListController-ZoomableListController";
+			target = 95AE550471A13E4B69AD81EF /* Pods-ZoomableListController_Tests-ZoomableListController-ZoomableListController */;
+			targetProxy = 4B6D0364AF8AB834011A649D /* PBXContainerItemProxy */;
+		};
+		B0E679219521F7462EC7FBE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Example-ZoomableListController";
+			target = B4E591891BA62A507D830665 /* Pods-ZoomableListController_Example-ZoomableListController */;
+			targetProxy = 909330B04595EB69ED206BF0 /* PBXContainerItemProxy */;
+		};
+		B63728E282E6EFFF6F915B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Tests-CircularScrollView";
+			target = 4AB73BA270143D9B9DB077BA /* Pods-ZoomableListController_Tests-CircularScrollView */;
+			targetProxy = 74BC4ACCD8F66EC7F393EB7A /* PBXContainerItemProxy */;
+		};
+		C75B13A07EF38FDCB5CCD319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Example-CircularScrollView-CircularScrollView";
+			target = 947617DF5A2DEECFA55703DB /* Pods-ZoomableListController_Example-CircularScrollView-CircularScrollView */;
+			targetProxy = B660C100BF48A5ABD4C5ED36 /* PBXContainerItemProxy */;
+		};
+		C93F145C56BCD749612B748A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Tests-ZoomableListController";
+			target = 38645DB442ADE9608254A3B1 /* Pods-ZoomableListController_Tests-ZoomableListController */;
+			targetProxy = EAF2F0C69A0D5BAA2E0CED2A /* PBXContainerItemProxy */;
+		};
+		D51EDA2BD47BC5B29E56B068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Example-CircularScrollView";
+			target = 8145A63DA50E42DD9BD6350D /* Pods-ZoomableListController_Example-CircularScrollView */;
+			targetProxy = B0976F1277B3127F4D193D90 /* PBXContainerItemProxy */;
+		};
+		F2D35CBD45866915F9F790E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomableListController_Tests-CircularScrollView";
+			target = 4AB73BA270143D9B9DB077BA /* Pods-ZoomableListController_Tests-CircularScrollView */;
+			targetProxy = E081F4F8A10871A38AB7E8A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0945A601702EAFF3C3926794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAB3FE08DF4E16AB60DB701 /* Pods-ZoomableListController_Tests-CircularScrollView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Tests-CircularScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CircularScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C2D3B7B41745B041558E981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C536DBAC3AFB3425652C28A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44F59A2CCF272620E3F3250 /* Pods-ZoomableListController_Example-ZoomableListController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZoomableListController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZoomableListController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		19A36F2D622F7D87C3FDABDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDABB811E71DF64CC9F5813 /* Pods-ZoomableListController_Example-CircularScrollView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZoomableListController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CircularScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3603596C7C5BC37229ED9AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAB3FE08DF4E16AB60DB701 /* Pods-ZoomableListController_Tests-CircularScrollView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZoomableListController_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CircularScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		38C365F4DC57475F1870C521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6CF545907948DB537AF7F83 /* Pods-ZoomableListController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Example/Pods-ZoomableListController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZoomableListController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A447B988F72011542809575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDABB811E71DF64CC9F5813 /* Pods-ZoomableListController_Example-CircularScrollView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZoomableListController_Example-CircularScrollView/Pods-ZoomableListController_Example-CircularScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Example-CircularScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Example-CircularScrollView/Pods-ZoomableListController_Example-CircularScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CircularScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50D21985A231B95C561DF207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BDEE1ACBD977BC0C48FEEB /* Pods-ZoomableListController_Tests-ZoomableListController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Tests-ZoomableListController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZoomableListController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		754AE5E844FE783B1C829846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44F59A2CCF272620E3F3250 /* Pods-ZoomableListController_Example-ZoomableListController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZoomableListController_Example-ZoomableListController/Pods-ZoomableListController_Example-ZoomableListController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Example-ZoomableListController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Example-ZoomableListController/Pods-ZoomableListController_Example-ZoomableListController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZoomableListController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		851BD5FAF3EF05ACC322C133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BDEE1ACBD977BC0C48FEEB /* Pods-ZoomableListController_Tests-ZoomableListController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZoomableListController_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZoomableListController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8977C3918857126DE400AEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAB3FE08DF4E16AB60DB701 /* Pods-ZoomableListController_Tests-CircularScrollView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Tests-CircularScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Tests-CircularScrollView/Pods-ZoomableListController_Tests-CircularScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CircularScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EB03B932DF389E977AFE485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F5F445E09E964A781C94A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0B82A2189F60B2DEED418C /* Pods-ZoomableListController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Tests/Pods-ZoomableListController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZoomableListController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFA78AAF1EA93CBFE93F2617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44F59A2CCF272620E3F3250 /* Pods-ZoomableListController_Example-ZoomableListController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZoomableListController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZoomableListController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C5915258D8C90B1C9AD0AB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDABB811E71DF64CC9F5813 /* Pods-ZoomableListController_Example-CircularScrollView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZoomableListController_Example-CircularScrollView/Pods-ZoomableListController_Example-CircularScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Example-CircularScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Example-CircularScrollView/Pods-ZoomableListController_Example-CircularScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CircularScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9085DCE8901C626F32EDF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44F59A2CCF272620E3F3250 /* Pods-ZoomableListController_Example-ZoomableListController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZoomableListController_Example-ZoomableListController/Pods-ZoomableListController_Example-ZoomableListController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Example-ZoomableListController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Example-ZoomableListController/Pods-ZoomableListController_Example-ZoomableListController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZoomableListController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB12F26473EDC9BE50F81F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35065CD9CBD20E6F3659E9DB /* Pods-ZoomableListController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Tests/Pods-ZoomableListController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZoomableListController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEEC83EF4BABC2EC351C3281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAB3FE08DF4E16AB60DB701 /* Pods-ZoomableListController_Tests-CircularScrollView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZoomableListController_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CircularScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EEAE7AA7771E024BAF4D1F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BDEE1ACBD977BC0C48FEEB /* Pods-ZoomableListController_Tests-ZoomableListController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Tests-ZoomableListController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Tests-ZoomableListController/Pods-ZoomableListController_Tests-ZoomableListController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZoomableListController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEC41B02BF7D084B370662B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BDEE1ACBD977BC0C48FEEB /* Pods-ZoomableListController_Tests-ZoomableListController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZoomableListController_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZoomableListController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F08845ADA908446FF4CC40C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D333E4B26A8F1B03B75E2C /* Pods-ZoomableListController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomableListController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomableListController_Example/Pods-ZoomableListController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZoomableListController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEB0FAAB09CBB04D5FB5292D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDABB811E71DF64CC9F5813 /* Pods-ZoomableListController_Example-CircularScrollView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZoomableListController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CircularScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06241A4231C32E4662D18FAA /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example-CircularScrollView-CircularScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB0FAAB09CBB04D5FB5292D /* Debug */,
+				19A36F2D622F7D87C3FDABDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B768F03330F5A6FDB59C689 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests-CircularScrollView-CircularScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3603596C7C5BC37229ED9AD0 /* Debug */,
+				DEEC83EF4BABC2EC351C3281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34447B62893EDD11F356BD8D /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests-ZoomableListController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAE7AA7771E024BAF4D1F78 /* Debug */,
+				50D21985A231B95C561DF207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4548A9F1A530DAC1EDFA3777 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example-ZoomableListController-ZoomableListController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA78AAF1EA93CBFE93F2617 /* Debug */,
+				0C536DBAC3AFB3425652C28A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C42C6F904A574464F7D698C /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example-CircularScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A447B988F72011542809575 /* Debug */,
+				C5915258D8C90B1C9AD0AB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CEC94FE3105CCECB3CCD8F0 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests-ZoomableListController-ZoomableListController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851BD5FAF3EF05ACC322C133 /* Debug */,
+				EEC41B02BF7D084B370662B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61B60491BB29A34265FA802 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5F445E09E964A781C94A6A /* Debug */,
+				CB12F26473EDC9BE50F81F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDC47B4DB9B3097F3304158 /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Tests-CircularScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0945A601702EAFF3C3926794 /* Debug */,
+				8977C3918857126DE400AEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67FF9BBDDB7598DE21D2F3B /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example-ZoomableListController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754AE5E844FE783B1C829846 /* Debug */,
+				C9085DCE8901C626F32EDF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E119B6E71501D98BA0A27A6B /* Build configuration list for PBXNativeTarget "Pods-ZoomableListController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08845ADA908446FF4CC40C2 /* Debug */,
+				38C365F4DC57475F1870C521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC647A00C4728317774E960 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB03B932DF389E977AFE485 /* Debug */,
+				0C2D3B7B41745B041558E981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 250C00C28D9177EC31AED50E /* Project object */;
+}
